@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="M2_REPO/junit/junit/4.12/junit-4.12.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/rubiconproject/oss/jchronic/0.2.6/jchronic-0.2.6.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-java/3.0.0-beta1/selenium-java-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-api/3.0.0-beta1/selenium-api-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-chrome-driver/3.0.0-beta1/selenium-chrome-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/google/guava/guava/19.0/guava-19.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.9/commons-codec-1.9.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-edge-driver/3.0.0-beta1/selenium-edge-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-firefox-driver/3.0.0-beta1/selenium-firefox-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-ie-driver/3.0.0-beta1/selenium-ie-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-opera-driver/3.0.0-beta1/selenium-opera-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-remote-driver/3.0.0-beta1/selenium-remote-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/cglib/cglib-nodep/3.2.4/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-safari-driver/3.0.0-beta1/selenium-safari-driver-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/seleniumhq/selenium/selenium-support/3.0.0-beta1/selenium-support-3.0.0-beta1.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar"/>
+	<classpathentry kind="var" path="M2_REPO/com/github/detro/ghostdriver/phantomjsdriver/1.1.0/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="jars/log4j-1.2.14.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

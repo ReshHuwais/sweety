@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="20.495291">
+<testcase classname="Landing Page validation" name="Display user credential on Landing page" time="17.200982">
+<system-out><![CDATA[Given I am on Home page.....................................................passed
+When I verify the home page.................................................passed
+Then I sould see my loginID on home page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing Page validation" name="Entry panel" time="1.084548">
+<system-out><![CDATA[Then I sould see Entry panels on home page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing Page validation" name="Report panel" time="1.086464">
+<system-out><![CDATA[Then I sould see Report panels on home page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Landing Page validation" name="View on report panel" time="1.123297">
+<failure message="java.lang.AssertionError: expected:&lt;true&gt; but was:&lt;false&gt;&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.failNotEquals(Assert.java:834)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:118)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at modules.CommonTestFunctions.reportLogging(CommonTestFunctions.java:34)&#13;&#10;&#9;at stepDefination.LandingPageValidation.page_title(LandingPageValidation.java:79)&#13;&#10;&#9;at ✽.Then I should land on Level &quot;Reports&quot; page(features/landingPage.feature:24)&#13;&#10;"><![CDATA[When I click on view link...................................................passed
+Then I should land on Level "Reports" page..................................failed
+
+StackTrace:
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at modules.CommonTestFunctions.reportLogging(CommonTestFunctions.java:34)
+	at stepDefination.LandingPageValidation.page_title(LandingPageValidation.java:79)
+	at ✽.Then I should land on Level "Reports" page(features/landingPage.feature:24)
+]]></failure>
+</testcase>
+</testsuite>

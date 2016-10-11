@@ -1,0 +1,29 @@
+Feature: Landing Page validation
+
+  @LandingPage
+  Scenario: Display user credential on Landing page [90m# features/landingPage.feature:4[0m
+    [32mGiven [0m[32mI am on Home page[0m                         [90m# LandingPageValidation.i_am_on_home_page()[0m
+    [32mWhen [0m[32mI verify the home page[0m                     [90m# LandingPageValidation.verify_home_page()[0m
+    [32mThen [0m[32mI sould see my loginID on home page[0m        [90m# LandingPageValidation.login_id_on_landing_page()[0m
+
+  @LandingPage
+  Scenario: Entry panel                        [90m# features/landingPage.feature:10[0m
+    [32mThen [0m[32mI sould see Entry panels on home page[0m [90m# LandingPageValidation.verify_Entrypanel(DataTable)[0m
+
+  @LandingPage
+  Scenario: Report panel                        [90m# features/landingPage.feature:16[0m
+    [32mThen [0m[32mI sould see Report panels on home page[0m [90m# LandingPageValidation.verify_Reportpanels(DataTable)[0m
+
+  @LandingPage
+  Scenario: View on report panel               [90m# features/landingPage.feature:22[0m
+    [32mWhen [0m[32mI click on view link[0m                  [90m# LandingPageValidation.view_link()[0m
+    [31mThen [0m[31mI should land on Level "[0m[31m[1mReports[0m[31m" page[0m [90m# LandingPageValidation.page_title(String)[0m
+      [31mjava.lang.AssertionError: expected:<true> but was:<false>
+      	at org.junit.Assert.fail(Assert.java:88)
+      	at org.junit.Assert.failNotEquals(Assert.java:834)
+      	at org.junit.Assert.assertEquals(Assert.java:118)
+      	at org.junit.Assert.assertEquals(Assert.java:144)
+      	at modules.CommonTestFunctions.reportLogging(CommonTestFunctions.java:34)
+      	at stepDefination.LandingPageValidation.page_title(LandingPageValidation.java:79)
+      	at ✽.Then I should land on Level "Reports" page(features/landingPage.feature:24)
+      [0m

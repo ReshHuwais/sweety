@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^I am on Home page$",
+    "steps": [
+      {
+        "name": "I am on Home page",
+        "aggregatedDurations": {
+          "average": 15.91027293,
+          "median": 15.91027293
+        },
+        "durations": [
+          {
+            "duration": 15.91027293,
+            "location": "features/landingPage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I sould see Report panels on home page$",
+    "steps": [
+      {
+        "name": "I sould see Report panels on home page",
+        "aggregatedDurations": {
+          "average": 1.086463682,
+          "median": 1.086463682
+        },
+        "durations": [
+          {
+            "duration": 1.086463682,
+            "location": "features/landingPage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on view link$",
+    "steps": [
+      {
+        "name": "I click on view link",
+        "aggregatedDurations": {
+          "average": 1.086334453,
+          "median": 1.086334453
+        },
+        "durations": [
+          {
+            "duration": 1.086334453,
+            "location": "features/landingPage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I verify the home page$",
+    "steps": [
+      {
+        "name": "I verify the home page",
+        "aggregatedDurations": {
+          "average": 1.252974838,
+          "median": 1.252974838
+        },
+        "durations": [
+          {
+            "duration": 1.252974838,
+            "location": "features/landingPage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I sould see my loginID on home page$",
+    "steps": [
+      {
+        "name": "I sould see my loginID on home page",
+        "aggregatedDurations": {
+          "average": 0.037734001,
+          "median": 0.037734001
+        },
+        "durations": [
+          {
+            "duration": 0.037734001,
+            "location": "features/landingPage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I sould see Entry panels on home page$",
+    "steps": [
+      {
+        "name": "I sould see Entry panels on home page",
+        "aggregatedDurations": {
+          "average": 1.084547637,
+          "median": 1.084547637
+        },
+        "durations": [
+          {
+            "duration": 1.084547637,
+            "location": "features/landingPage.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

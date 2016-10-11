@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Display user credential on Landing page",
+        "description": "",
+        "id": "landing-page-validation;display-user-credential-on-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15910272930,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Home page",
+            "match": {
+              "location": "LandingPageValidation.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1252974838,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I verify the home page",
+            "match": {
+              "location": "LandingPageValidation.verify_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37734001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I sould see my loginID on home page",
+            "match": {
+              "location": "LandingPageValidation.login_id_on_landing_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@LandingPage"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Entry panel",
+        "description": "",
+        "id": "landing-page-validation;entry-panel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1084547637,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sould see Entry panels on home page",
+            "match": {
+              "location": "LandingPageValidation.verify_Entrypanel(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Date"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "Level"
+                ],
+                "line": 13
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@LandingPage"
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Report panel",
+        "description": "",
+        "id": "landing-page-validation;report-panel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1086463682,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I sould see Report panels on home page",
+            "match": {
+              "location": "LandingPageValidation.verify_Reportpanels(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Type"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Access"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 15,
+            "name": "@LandingPage"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "View on report panel",
+        "description": "",
+        "id": "landing-page-validation;view-on-report-panel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1086334453,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on view link",
+            "match": {
+              "location": "LandingPageValidation.view_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36962823,
+              "error_message": "java.lang.AssertionError: expected:\u003ctrue\u003e but was:\u003cfalse\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat modules.CommonTestFunctions.reportLogging(CommonTestFunctions.java:34)\r\n\tat stepDefination.LandingPageValidation.page_title(LandingPageValidation.java:79)\r\n\tat ✽.Then I should land on Level \"Reports\" page(features/landingPage.feature:24)\r\n",
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "I should land on Level \"Reports\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Reports",
+                  "offset": 24
+                }
+              ],
+              "location": "LandingPageValidation.page_title(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@LandingPage"
+          }
+        ]
+      }
+    ],
+    "name": "Landing Page validation",
+    "description": "",
+    "id": "landing-page-validation",
+    "keyword": "Feature",
+    "uri": "features/landingPage.feature"
+  }
+]
